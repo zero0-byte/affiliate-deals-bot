@@ -1,0 +1,30 @@
+# Segredos / secrets
+.env
+.env.*
+!.env.example
+*cookie*.txt
+tiktok_token*.json
+*token*.json
+
+# Dados locais / local data
+*.db
+*.db-journal
+*.sqlite*
+*.log
+logs/
+saida/
+videos/
+backup*/
+*-backup*/
+pausado*
+*.lock
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Sistema
+Thumbs.db
+.DS_Store
